@@ -1,0 +1,10 @@
+{
+  "name": "jarvis-web-monorepo",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter @jarvis/web dev",
+    "build": "pnpm --filter @jarvis/web build",
+    "lint": "pnpm --filter @jarvis/web lint",
+    "test": "pnpm --filter @jarvis/web test"
+  }
+}
